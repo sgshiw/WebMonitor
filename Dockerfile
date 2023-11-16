@@ -1,6 +1,6 @@
 FROM python:3.6-slim-buster
 
-FROM debian:latest
+
 
 # 更新包信息并安装依赖
 RUN apt-get update && \
